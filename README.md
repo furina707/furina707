@@ -1,28 +1,36 @@
-<!-- 欢迎横幅 -->
-<h1 align="center">✨ 欢迎来到 Furina707 的代码宇宙 ✨</h1>
+@echo off
+chcp 65001 >nul
+title 文件查看器
 
-<!-- 动态统计卡片 -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=furina707&show_icons=true&theme=radical" />
-</div>
+echo ========================================
+echo     完整文件列表（含隐藏内容）
+echo ========================================
+echo.
+echo 当前位置: %cd%
+echo.
 
-<!-- 技术栈展示 -->
-<h3 align="center">🛠️ 常用工具与技术栈</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" />
-</p>
+echo [树形结构]
+tree /F /A
+echo.
 
-<!-- 置顶项目展示（自定义） -->
-<h3 align="center">🌟 精选项目</h3>
-| 项目 | 描述 |
-|------|------|
-| [wsl-manager](https://github.com/furina707/wsl-manager) | 🪟 轻量级 WSL 管理工具，GUI + CLI |
-| [MR3A](https://github.com/furina707/MR3A) | 🎮 《忍者必须死3》游戏助手 |
+echo [隐藏文件夹内容 - .git]
+if exist ".git" (
+    echo.
+    echo === .git 主要文件 ===
+    dir /b ".git" | findstr /v "objects"
+    echo.
+    echo === .git 分支信息 ===
+    if exist ".git\refs\heads" dir /b ".git\refs\heads"
+)
 
-<!-- 访客计数 -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=furina707&color=blueviolet" />
-</p>
+echo.
+echo [所有文件（含隐藏）]
+dir /b /a
+echo.
+
+echo [统计]
+for /f %%a in ('dir /b /a-d 2^>nul ^| find /c /v ""') do echo 普通文件: %%a 个
+for /f %%a in ('dir /b /ad 2^>nul ^| find /c /v ""') do echo 普通文件夹: %%a 个
+for /f %%a in ('dir /b /ah 2^>nul ^| find /c /v ""') do echo 隐藏项目: %%a 个
+
+pause
