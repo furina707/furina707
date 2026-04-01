@@ -1,36 +1,46 @@
-@echo off
-chcp 65001 >nul
-title 文件查看器
+<div align="center">
+  
+<!-- 动态打字效果标题 -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&center=true&vCenter=true&random=false&width=500&lines=✨+Hello%2C+I'm+Furina707+✨;Welcome+to+my+code+universe!;WSL+%7C+Game+Dev+%7C+AI+%7C+Automation" alt="Typing SVG" />
+</a>
 
-echo ========================================
-echo     完整文件列表（含隐藏内容）
-echo ========================================
-echo.
-echo 当前位置: %cd%
-echo.
+<!-- 访客计数器 + 可爱徽章组合 -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=furina707&label=✨+VISITORS+✨&color=blueviolet&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/status-coding%20%E2%9A%99%EF%B8%8F-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/furina707?label=✨%20FOLLOWERS&style=for-the-badge&color=blueviolet" />
+</p>
 
-echo [树形结构]
-tree /F /A
-echo.
+<!-- GitHub 统计卡片（经典+活动图组合） -->
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=furina707&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&icon_color=FFB6C1" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furina707&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4" />
+    </td>
+  </tr>
+</table>
 
-echo [隐藏文件夹内容 - .git]
-if exist ".git" (
-    echo.
-    echo === .git 主要文件 ===
-    dir /b ".git" | findstr /v "objects"
-    echo.
-    echo === .git 分支信息 ===
-    if exist ".git\refs\heads" dir /b ".git\refs\heads"
-)
+<!-- 活动时间线图 -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=furina707&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&color=FF69B4&line=FFB6C1&point=FFFFFF" width="100%" />
 
-echo.
-echo [所有文件（含隐藏）]
-dir /b /a
-echo.
+</div>
 
-echo [统计]
-for /f %%a in ('dir /b /a-d 2^>nul ^| find /c /v ""') do echo 普通文件: %%a 个
-for /f %%a in ('dir /b /ad 2^>nul ^| find /c /v ""') do echo 普通文件夹: %%a 个
-for /f %%a in ('dir /b /ah 2^>nul ^| find /c /v ""') do echo 隐藏项目: %%a 个
+---
 
-pause
+## 🧚‍♀️ 关于我
+
+```python
+class Furina707:
+    def __init__(self):
+        self.name = "Furina707"
+        self.role = "Developer & Automation Enthusiast"
+        self.location = "Code Universe 🌌"
+        self.interests = ["WSL Tooling", "Game Automation", "AI Assistant", "Open Source"]
+        self.current_focus = "Building cross-platform tools"
+    
+    def say_hi(self):
+        print("✨ Crafting code, one commit at a time ✨")
