@@ -1,46 +1,30 @@
 <div align="center">
   
-<!-- 动态打字效果标题 -->
+<!-- 动态打字效果标题 - 优化加载速度 -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&center=true&vCenter=true&random=false&width=500&lines=✨+Hello%2C+I'm+Furina707+✨;Welcome+to+my+code+universe!;WSL+%7C+Game+Dev+%7C+AI+%7C+Automation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=26&duration=2500&pause=800&center=true&vCenter=true&random=false&width=550&lines=%F0%9F%A7%9A+Hello%2C+I'm+Furina707+%F0%9F%A7%9A;Welcome+to+my+code+universe+%F0%9F%8C%8C;WSL+%E2%9D%96+Game+Automation+%E2%9D%96+AI+Tools;Building+cross-platform+experiences" alt="Typing SVG" />
 </a>
 
-<!-- 访客计数器 + 可爱徽章组合 -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=furina707&label=✨+VISITORS+✨&color=blueviolet&style=for-the-badge" />
-  <img src="https://img.shields.io/badge/status-coding%20%E2%9A%99%EF%B8%8F-4CAF50?style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/furina707?label=✨%20FOLLOWERS&style=for-the-badge&color=blueviolet" />
+<!-- 徽章行 - 使用更轻量的样式 -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=furina707&label=visitors&color=8b5cf6&style=flat-square" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/github/followers/furina707?label=followers&style=flat-square&color=8b5cf6" />
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/status-available-10b981?style=flat-square" />
 </p>
-
-<!-- GitHub 统计卡片（经典+活动图组合） -->
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=furina707&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4&icon_color=FFB6C1" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=furina707&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF69B4" />
-    </td>
-  </tr>
-</table>
-
-<!-- 活动时间线图 -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=furina707&theme=react-dark&bg_color=0D1117&hide_border=true&area=true&color=FF69B4&line=FFB6C1&point=FFFFFF" width="100%" />
 
 </div>
 
 ---
 
-## 🧚‍♀️ 关于我
+## 👋 关于我
 
 ```python
-class Furina707:
+class Developer:
     def __init__(self):
-        self.name = "Furina707"
-        self.role = "Developer & Automation Enthusiast"
-        self.location = "Code Universe 🌌"
-        self.interests = ["WSL Tooling", "Game Automation", "AI Assistant", "Open Source"]
-        self.current_focus = "Building cross-platform tools"
-    
-    def say_hi(self):
-        print("✨ Crafting code, one commit at a time ✨")
+        self.handle = "furina707"
+        self.role = "Developer · Automation Enthusiast · OSS Contributor"
+        self.toolkit = ["WSL Tooling", "Game Automation", "AI Integration", "System Utilities"]
+        self.philosophy = "Write once, maintain forever"
+        self.current = "Refining my WSL manager & exploring AI agents"
