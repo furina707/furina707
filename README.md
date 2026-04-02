@@ -5,13 +5,3 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=26&duration=2500&pause=800&center=true&vCenter=true&random=false&width=550&lines=%F0%9F%A7%9A+Hello%2C+I'm+Furina707+%F0%9F%A7%9A;Welcome+to+my+code+universe+%F0%9F%8C%8C;WSL+%E2%9D%96+Game+Automation+%E2%9D%96+AI+Tools;Building+cross-platform+experiences" alt="Typing SVG" />
 </a>
 
-<!-- 徽章行 - 使用更轻量的样式 -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=furina707&label=visitors&color=8b5cf6&style=flat-square" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/github/followers/furina707?label=followers&style=flat-square&color=8b5cf6" />
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/status-available-10b981?style=flat-square" />
-</p>
-
-</div>
