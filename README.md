@@ -15,16 +15,3 @@
 </p>
 
 </div>
-
----
-
-## 👋 关于我
-
-```python
-class Developer:
-    def __init__(self):
-        self.handle = "furina707"
-        self.role = "Developer · Automation Enthusiast · OSS Contributor"
-        self.toolkit = ["WSL Tooling", "Game Automation", "AI Integration", "System Utilities"]
-        self.philosophy = "Write once, maintain forever"
-        self.current = "Refining my WSL manager & exploring AI agents"
