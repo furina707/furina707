@@ -7,8 +7,8 @@
 
 <!-- QQ群 - 简洁一行 -->
 <p>
-  <b>QQ群：123456789</b>
-  <a href="点击链接加入群聊【qq空间】：https://qm.qq.com/q/IE7YtCrS46">点击加群 →</a>
+  <b>QQ群：993264636</b>
+  <a href="点击链接加入群聊【qq空间】：https://qm.qq.com/q/IE7YtCrS46">加群 →</a>
 </p>
 
 </div>
