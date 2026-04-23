@@ -7,9 +7,8 @@
 
 <!-- QQ群 - 简洁一行 -->
 <p>
-  <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="18" height="18" alt="QQ"/>
   <b>QQ群：123456789</b>
-  <a href="https://qm.qq.com/q/your-group-link">点击加群 →</a>
+  <a href="点击链接加入群聊【qq空间】：https://qm.qq.com/q/IE7YtCrS46">点击加群 →</a>
 </p>
 
 </div>
